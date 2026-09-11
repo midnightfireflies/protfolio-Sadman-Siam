@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section class="inner-hero">
+  <div class="inner-shell">
+    <p class="eyebrow">MD. SADMAN SIAM</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </div>
+</section>
+<section class="inner-content">
+  <article class="prose">
+    {{ .Content }}
+  </article>
+</section>
+{{ end }}
