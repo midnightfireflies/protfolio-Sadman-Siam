@@ -1,0 +1,238 @@
+[hero]
+eyebrow = "PORTFOLIO / 2026"
+name = "Md. Sadman Siam"
+headline = "Cybersecurity · Networking · AI Automation"
+subheadline = "CSE Student · Developer · Problem Solver"
+intro = "Computer Science student building practical skills across security, networks, automation, and software. I like projects that solve a real problem and teach me something reusable."
+ctaPrimary = "Explore Projects"
+ctaSecondary = "Download CV"
+achievement = "1st Runner Up · CTF · 2026"
+
+[about]
+eyebrow = "01 / ABOUT"
+title = "I build, secure, and automate."
+body = "I am studying Computer Science and Engineering at Daffodil International University. My current direction combines cybersecurity fundamentals, Cisco networking, bug-bounty learning, Linux, programming, and AI workflow automation."
+body2 = "Before focusing more deeply on software and security, I built years of experience in video editing, photography, tutoring, and campus activities. That background strengthened my communication, presentation, creative problem-solving, and client-facing skills."
+
+[[focus]]
+number = "01"
+title = "Cybersecurity"
+status = "Active"
+description = "CTF problem-solving, Linux, security fundamentals, web-security study, and structured bug-bounty learning."
+items = ["CTF problem solving", "Linux", "Web security", "Bug bounty — learning"]
+
+[[focus]]
+number = "02"
+title = "Networking"
+status = "Learning"
+description = "Building stronger networking foundations through Cisco learning and hands-on study."
+items = ["Cisco networking", "TCP/IP concepts", "Network fundamentals", "Troubleshooting mindset"]
+
+[[focus]]
+number = "03"
+title = "AI Automation"
+status = "Building"
+description = "Creating n8n workflows that connect forms, spreadsheets, email, APIs, and AI-assisted decision logic."
+items = ["n8n", "Workflow automation", "AI agents", "LLM integrations"]
+
+[[skills]]
+category = "Programming"
+items = ["C", "C++", "Python", "Java", "HTML", "CSS", "JavaScript"]
+
+[[skills]]
+category = "Security & Systems"
+items = ["Linux", "Cybersecurity fundamentals", "CTF", "Bug bounty — learning", "Web security — learning"]
+
+[[skills]]
+category = "Automation"
+items = ["n8n", "Google Forms", "Google Sheets", "Gmail automation", "Prompt engineering", "AI agents"]
+
+[[skills]]
+category = "Tools"
+items = ["Git", "GitHub", "VS Code", "Google Workspace", "Canva", "Adobe Creative Suite"]
+
+[achievement]
+eyebrow = "02 / FEATURED ACHIEVEMENT"
+title = "1st Runner Up — Capture The Flag"
+event = "Cyber Security Awareness Day 2026"
+organization = "Cyber Security Center · Daffodil International University"
+description = "Secured 1st Runner Up in an in-house Capture The Flag competition through cybersecurity problem-solving, exploitation challenges, and technical work under strict time constraints."
+
+[[projects]]
+tag = "AI AUTOMATION"
+status = "Working"
+title = "Automated Lead Qualification & Follow-Up"
+description = "An n8n workflow for a digital-marketing lead funnel. It receives form submissions, updates Google Sheets, sends a personalized thank-you email, and notifies the owner with a Hot / Warm / Cold lead classification."
+stack = ["n8n", "Google Forms", "Google Sheets", "Gmail", "Automation Logic"]
+featured = true
+
+[[projects]]
+tag = "ALGORITHMS"
+status = "Completed"
+title = "Subsequence Finder — LCS & LIS"
+description = "A C-based algorithm laboratory project using dynamic programming to compute Longest Common Subsequence and Longest Increasing Subsequence results, including DP-table output and comparison metrics."
+stack = ["C", "Dynamic Programming", "Algorithms", "Problem Solving"]
+featured = false
+
+[[projects]]
+tag = "HUGO / WEB"
+status = "Current"
+title = "Personal Portfolio"
+description = "A custom Hugo portfolio that blends a minimal developer aesthetic with a smooth single-page introduction experience, built without a runtime framework or npm dependency."
+stack = ["Hugo", "HTML", "CSS", "JavaScript", "GitHub API"]
+featured = false
+
+[[projects]]
+tag = "SECURITY LAB"
+status = "Learning"
+title = "Bug Bounty & Security Practice"
+description = "A growing collection of responsible security-learning exercises focused on reconnaissance discipline, vulnerability analysis, web-security thinking, and structured reporting habits."
+stack = ["Linux", "Web Security", "Bug Bounty", "Networking"]
+featured = false
+
+[[experience]]
+period = "2018 — Present"
+role = "Freelance Video Editor"
+place = "Self-employed · Remote"
+description = "Edited promotional, educational, and short-form content; worked with small clients and creators; and used tools including Adobe Premiere Pro, CapCut, and DaVinci Resolve."
+
+[[experience]]
+period = "2020 — 2023"
+role = "Freelance Photographer"
+place = "Event & Portrait Photography · Local Clients"
+description = "Handled event and portrait photography, image retouching, client communication, delivery, and scheduling."
+
+[[experience]]
+period = "2019 — 2023"
+role = "Private Tutor"
+place = "Physics, Mathematics & Basic Computer Skills"
+description = "Provided one-to-one tutoring and created custom learning materials to simplify difficult concepts and strengthen student confidence."
+
+[[experience]]
+period = "2016 — Present"
+role = "Campus Event Management"
+place = "BIAM Model School & College · Govt. Azizul Haque College"
+description = "Supported student-organized events with logistics, photography, media documentation, promotional content, and technical setup."
+
+[[education]]
+period = "2025 — Present"
+title = "B.Sc. in Computer Science & Engineering"
+place = "Daffodil International University · Dhaka, Bangladesh"
+
+[[education]]
+period = "2023"
+title = "HSC — GPA 5.00"
+place = "Govt. Azizul Haque College · Bogura, Bangladesh"
+
+[[education]]
+period = "2021"
+title = "SSC — GPA 5.00"
+place = "BIAM Model School and College · Bogura, Bangladesh"
+
+[[certifications]]
+title = "AI 100: Fundamentals"
+issuer = "TCM Security"
+issued = "Jan 2026"
+year = "2026"
+category = "AI"
+credential = "cert 2989tv00"
+
+[[certifications]]
+title = "Practical Security Fundamentals"
+issuer = "TCM Security"
+issued = "Nov 2025"
+year = "2025"
+category = "Cybersecurity"
+credential = "cert 23x517md"
+
+[[certifications]]
+title = "Linux 100: Fundamentals"
+issuer = "TCM Security"
+issued = "Nov 2025"
+expires = "Dec 2035"
+year = "2025"
+category = "Linux"
+
+[[certifications]]
+title = "Programming 100: Fundamentals"
+issuer = "TCM Security"
+issued = "Nov 2025"
+expires = "Dec 2034"
+year = "2025"
+category = "Programming"
+
+[[certifications]]
+title = "AgentX Prompting"
+issuer = "Microsoft / Netcom Learning"
+issued = "2025"
+year = "2025"
+category = "AI / Prompting"
+
+[[certifications]]
+title = "CS50x: Introduction to Computer Science"
+issuer = "Harvard University / edX"
+issued = "2024"
+year = "2024"
+category = "Computer Science"
+
+[[certifications]]
+title = "The Complete Web Development Bootcamp"
+issuer = "Angela Yu / Udemy"
+issued = "2023"
+year = "2023"
+category = "Web Development"
+
+[[certifications]]
+title = "DIU_CYBERCON 2025 — Organizer"
+issuer = "Daffodil International University"
+issued = "2025"
+year = "2025"
+category = "Cybersecurity / Leadership"
+
+[[learning]]
+name = "Cisco Networking"
+status = "Currently learning"
+
+[[learning]]
+name = "Cybersecurity Bug Bounty"
+status = "Currently learning"
+
+[[learning]]
+name = "Web Security"
+status = "Currently learning"
+
+[[learning]]
+name = "Python Automation"
+status = "Building"
+
+[[learning]]
+name = "AI Agents"
+status = "Building"
+
+[[learning]]
+name = "n8n Workflow Automation"
+status = "Building"
+
+[[awards]]
+title = "1st Runner Up — Cyber Security Awareness Day In-House CTF"
+year = "2026"
+
+[[awards]]
+title = "Organizer — National Capture The Flag, DIU_CYBERCON"
+year = "2025"
+
+[[awards]]
+title = "Young Innovator Recognition — July Students Community"
+year = "2024"
+
+[[awards]]
+title = "General Scholarship — HSC"
+year = "2023"
+
+[[awards]]
+title = "General Scholarship — SSC"
+year = "2021"
+
+[[awards]]
+title = "Best Cultural Coordinator Award — Cultural Classicists"
+year = "2021"
